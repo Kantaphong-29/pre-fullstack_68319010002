@@ -20,3 +20,5 @@ model Student {
   major     String   @db.VarChar(50)
   createdAt DateTime @default(now())
 }
+
+
